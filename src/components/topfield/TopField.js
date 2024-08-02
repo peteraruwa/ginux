@@ -6,8 +6,9 @@ import { features } from './data.js';
 
 const TopField = () => {
     return (
-        <div className='bg-[#F8F8F8] h-[698px] w-full flex place-content-center'>
-            <div className="w-[1124px] flex justify-between items-center">
+        <div className='bg-[#F8F8F8] h-[1100px] lg:h-[698px]  w-full flex place-content-center'>
+            <div className="w-[364px] lg:w-[1124px] flex flex-col justify-around lg:flex-row lg:justify-between items-center">
+                <img src={PhotoTF} alt="" className='lg:hidden w-[364px]' />
                 <div className='w-[523px] '>
                     <div className=''>
                         <p className='font-bold text-[42px]'>Top Field Experts</p>
@@ -20,7 +21,7 @@ const TopField = () => {
                         ))
                     }
                 </div>
-                <img src={PhotoTF} alt="" />
+                <img src={PhotoTF} alt="" className='hidden lg:flex' />
             </div>
         </div>
     )

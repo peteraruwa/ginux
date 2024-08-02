@@ -12,14 +12,14 @@ const BrandLogo = () => {
     return (
         <div className='flex flex-col justify-center items-center h-[153px]'>
             <p className="text-[#717680] font-medium text-md font-['Inter']">Top companies our Instructors work</p>
-            <div className='flex items-center justify-around h-[42px]  w-[990px]'>
-                <img src={AXA} alt="" />
-                <img src={Lenovo} alt="" />
-                <img src={Slack} alt="" />
-                <img src={YT} alt="" />
-                <img src={Amazon} alt="" />
-                <img src={Google} alt="" />
-                <img src={MS} alt="" />
+            <div className='flex flex-wrap  items-center justify-around h-[42px]  w-[414px] lg:w-[990px]'>
+                <img src={AXA} alt="" className='w-[43.92px] lg:w-[84px]' />
+                <img src={Lenovo} alt="" className='w-[43.92px] lg:w-[84px]' />
+                <img src={Slack} alt="" className='w-[43.92px] lg:w-[84px]' />
+                <img src={YT} alt="" className='w-[43.92px] lg:w-[84px]' />
+                <img src={Amazon} alt="" className='w-[43.92px] lg:w-[84px]' />
+                <img src={Google} alt="" className='w-[43.92px] lg:w-[84px]' />
+                <img src={MS} alt="" className='w-[43.92px] lg:w-[84px]' />
             </div>
 
         </div>

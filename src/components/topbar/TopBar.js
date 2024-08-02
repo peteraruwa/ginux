@@ -5,7 +5,7 @@ import Arr_rt from '../../assets/arrow-right.svg';
 
 const TopBar = () => {
     return (
-        <div className='w-full h-[48px] flex justify-center items-center bg-[#121212] text-white'>
+        <div className='w-full h-[48px] hidden justify-center items-center bg-[#121212] text-white lg:flex'>
             <div className='w-3/5 flex justify-between items-center'>
                 <div className=''>
                     <img src={Flags} alt="" />
