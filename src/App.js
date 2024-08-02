@@ -1,25 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import { TopBar, NavBar, Carousel, BrandLogo, TopField, Features, Faq, Scholarship, Testimonial, GetStarted, Footer } from './components';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <main>
+      <TopBar />
+      <NavBar />
+      <section className="bg-[url('./assets/pattern.svg')] bg-[#664DFF] bg-blend-overlay" >
+        <Carousel />
+      </section>
+      <BrandLogo />
+      <section className='bg-[#F5F5F5] h-full'>
+        <TopField />
+        <Features />
+        <Faq />
+        <Scholarship />
+        <Testimonial />
+        <GetStarted />
+      </section>
+      <Footer />
+    </main>
+  )
 }
 
 export default App;

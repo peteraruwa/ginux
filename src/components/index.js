@@ -1,0 +1,11 @@
+export { default as BrandLogo } from './brandlogo/BrandLogo';
+export { default as Carousel } from './carousel/Carousel';
+export { default as Faq } from './faq/Faq';
+export { default as Features } from './features/Features';
+export { default as Footer } from './footer/Footer';
+export { default as GetStarted } from './getstarted/GetStarted';
+export { default as NavBar } from './navbar/NavBar';
+export { default as Scholarship } from './scholarship/Scholarship';
+export { default as Testimonial } from './testimonial/Testimonial';
+export { default as TopBar } from './topbar/TopBar';
+export { default as TopField } from './topfield/TopField';
